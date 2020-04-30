@@ -2,12 +2,12 @@
 
 ```java
 @Autowired
-	ResourceLoader resourceLoader;
+ResourceLoader resourceLoader;
 ```
 
 
 ```java
-		File file = resourceLoader.getResource("sample_data/Test/Invoice_6.pdf").getFile();
-		log.info("filename : {}", file.getName());
+File file = resourceLoader.getResource("sample_data/Test/Invoice_6.pdf").getFile();
+log.info("filename : {}", file.getName());
 ```
 
